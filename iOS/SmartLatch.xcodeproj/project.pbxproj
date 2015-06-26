@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92AE9A741590ED7F00DED0C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AE9A731590ED7F00DED0C9 /* UIKit.framework */; };
+		92AE9A761590ED7F00DED0C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AE9A751590ED7F00DED0C9 /* Foundation.framework */; };
+		92AE9A781590ED7F00DED0C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AE9A771590ED7F00DED0C9 /* CoreGraphics.framework */; };
+		B2BE7F861B3DCA67005DDE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE7F7F1B3DCA67005DDE87 /* main.m */; };
+		B2BE7F891B3DCA67005DDE87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE7F821B3DCA67005DDE87 /* ViewController.m */; };
+		B2BE7F8B1B3DCA67005DDE87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE7F841B3DCA67005DDE87 /* AppDelegate.m */; };
+		B2BE7F8E1B3DCBB7005DDE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2BE7F8C1B3DCBB7005DDE87 /* InfoPlist.strings */; };
+		B2BE7F911B3DCBCC005DDE87 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BE7F8F1B3DCBCC005DDE87 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92AE9A6F1590ED7F00DED0C9 /* SmartLatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AE9A731590ED7F00DED0C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92AE9A751590ED7F00DED0C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92AE9A771590ED7F00DED0C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2BE7F7E1B3DCA67005DDE87 /* iLamp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iLamp-Prefix.pch"; path = "../smartLatch/iLamp-Prefix.pch"; sourceTree = "<group>"; };
+		B2BE7F7F1B3DCA67005DDE87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../smartLatch/main.m; sourceTree = "<group>"; };
+		B2BE7F801B3DCA67005DDE87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../smartLatch/AppDelegate.h; sourceTree = "<group>"; };
+		B2BE7F821B3DCA67005DDE87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../smartLatch/ViewController.m; sourceTree = "<group>"; };
+		B2BE7F831B3DCA67005DDE87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../smartLatch/ViewController.h; sourceTree = "<group>"; };
+		B2BE7F841B3DCA67005DDE87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../smartLatch/AppDelegate.m; sourceTree = "<group>"; };
+		B2BE7F8D1B3DCBB7005DDE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = smartLatch/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2BE7F901B3DCBCC005DDE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = smartLatch/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B2BE7F941B3DCC98005DDE87 /* iLamp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iLamp-Info.plist"; path = "../smartLatch/iLamp-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AE9A6C1590ED7F00DED0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AE9A741590ED7F00DED0C9 /* UIKit.framework in Frameworks */,
+				92AE9A761590ED7F00DED0C9 /* Foundation.framework in Frameworks */,
+				92AE9A781590ED7F00DED0C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AE9A641590ED7F00DED0C9 = {
+			isa = PBXGroup;
+			children = (
+				92AE9A791590ED7F00DED0C9 /* SmartLatch */,
+				92AE9A721590ED7F00DED0C9 /* Frameworks */,
+				92AE9A701590ED7F00DED0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92AE9A701590ED7F00DED0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AE9A6F1590ED7F00DED0C9 /* SmartLatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AE9A721590ED7F00DED0C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AE9A731590ED7F00DED0C9 /* UIKit.framework */,
+				92AE9A751590ED7F00DED0C9 /* Foundation.framework */,
+				92AE9A771590ED7F00DED0C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92AE9A791590ED7F00DED0C9 /* SmartLatch */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE7F7E1B3DCA67005DDE87 /* iLamp-Prefix.pch */,
+				B2BE7F7F1B3DCA67005DDE87 /* main.m */,
+				B2BE7F801B3DCA67005DDE87 /* AppDelegate.h */,
+				B2BE7F8F1B3DCBCC005DDE87 /* MainStoryboard.storyboard */,
+				B2BE7F821B3DCA67005DDE87 /* ViewController.m */,
+				B2BE7F831B3DCA67005DDE87 /* ViewController.h */,
+				B2BE7F841B3DCA67005DDE87 /* AppDelegate.m */,
+				92AE9A7A1590ED7F00DED0C9 /* Supporting Files */,
+			);
+			name = SmartLatch;
+			path = iLamp;
+			sourceTree = "<group>";
+		};
+		92AE9A7A1590ED7F00DED0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE7F941B3DCC98005DDE87 /* iLamp-Info.plist */,
+				B2BE7F8C1B3DCBB7005DDE87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AE9A6E1590ED7F00DED0C9 /* SmartLatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AE9A8D1590ED8000DED0C9 /* Build configuration list for PBXNativeTarget "SmartLatch" */;
+			buildPhases = (
+				92AE9A6B1590ED7F00DED0C9 /* Sources */,
+				92AE9A6C1590ED7F00DED0C9 /* Frameworks */,
+				92AE9A6D1590ED7F00DED0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLatch;
+			productName = iLamp;
+			productReference = 92AE9A6F1590ED7F00DED0C9 /* SmartLatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AE9A661590ED7F00DED0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					92AE9A6E1590ED7F00DED0C9 = {
+						DevelopmentTeam = 625732G463;
+					};
+				};
+			};
+			buildConfigurationList = 92AE9A691590ED7F00DED0C9 /* Build configuration list for PBXProject "SmartLatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92AE9A641590ED7F00DED0C9;
+			productRefGroup = 92AE9A701590ED7F00DED0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AE9A6E1590ED7F00DED0C9 /* SmartLatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AE9A6D1590ED7F00DED0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE7F911B3DCBCC005DDE87 /* MainStoryboard.storyboard in Resources */,
+				B2BE7F8E1B3DCBB7005DDE87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AE9A6B1590ED7F00DED0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE7F861B3DCA67005DDE87 /* main.m in Sources */,
+				B2BE7F891B3DCA67005DDE87 /* ViewController.m in Sources */,
+				B2BE7F8B1B3DCA67005DDE87 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2BE7F8C1B3DCBB7005DDE87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE7F8D1B3DCBB7005DDE87 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B2BE7F8F1B3DCBCC005DDE87 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE7F901B3DCBCC005DDE87 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AE9A8B1590ED8000DED0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92AE9A8C1590ED8000DED0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AE9A8E1590ED8000DED0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smartLatch/iLamp-Prefix.pch";
+				INFOPLIST_FILE = "smartLatch/iLamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92AE9A8F1590ED8000DED0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smartLatch/iLamp-Prefix.pch";
+				INFOPLIST_FILE = "smartLatch/iLamp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AE9A691590ED7F00DED0C9 /* Build configuration list for PBXProject "SmartLatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AE9A8B1590ED8000DED0C9 /* Debug */,
+				92AE9A8C1590ED8000DED0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AE9A8D1590ED8000DED0C9 /* Build configuration list for PBXNativeTarget "SmartLatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AE9A8E1590ED8000DED0C9 /* Debug */,
+				92AE9A8F1590ED8000DED0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AE9A661590ED7F00DED0C9 /* Project object */;
+}
